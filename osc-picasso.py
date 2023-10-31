@@ -22,6 +22,7 @@ args = parser.parse_args()
 # Load image
 from PIL import Image
 img = Image.open(args.img)
+img = img.convert('RGB') // Convert to RGB to ensure getPixel properly outputs 3 values
 
 # Get aspect ratio
 ratio = img.size[0] / img.size[1]
