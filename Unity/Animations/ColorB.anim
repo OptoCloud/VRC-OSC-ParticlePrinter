@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: InitialModule.startColor.maxColor.b
-    path: Painter/PosX/PosY/Particle System
+    path: PosX/PosY/Particle System
     classID: 198
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -107,7 +107,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: InitialModule.startColor.maxColor.b
-    path: Painter/PosX/PosY/Particle System
+    path: PosX/PosY/Particle System
     classID: 198
     script: {fileID: 0}
   m_EulerEditorCurves: []
